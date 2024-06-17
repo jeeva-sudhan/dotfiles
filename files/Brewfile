@@ -40,11 +40,12 @@ brew 'direnv'   # Note: If you get an error (for eg after upgrading direnv or if
 # brew 'docker-diff'
 # brew 'docker-slim'  # TODO: investigate if the http-probe is a deal-breaker
 # brew 'fzy'
+brew 'git'
 # brew 'git-crypt'
 brew 'git-extras'
 brew 'git-gui'
 brew 'git-tools'
-brew 'git'
+# brew 'git'
 # brew 'gradle'
 # brew 'gradle-completion'
 # brew 'hadolint'     # lint Dockerfiles (similar to shellcheck for shell scripts)
@@ -77,48 +78,55 @@ brew 'zsh'
 # ----------------------------------------------------------------------------------------------------------
 brew 'mas'
 mas 'iBar-Menubar icon control tool', id: 6443843900
-mas 'Velja', id: 1607635845
+# mas 'Velja', id: 1607635845
 
 # ----------------------------------------------------------------------------------------------------------
 cask 'aldente'
 # cask 'alfred'
 cask 'appcleaner'
-cask 'arc'
-cask 'brave-browser@nightly'
+# cask 'arc'
+# cask 'brave-browser@nightly' # TODO: Browsing with containers is not present - June 2023
 cask 'clocker'
-cask 'cloudflare-warp'
+# cask 'cloudflare-warp'
 cask 'command-x'
 # cask 'dbeaver-community'
 # cask 'dupeguru'
-cask 'firefox@nightly' #, greedy: true
+# cask 'firefox'
+# cask 'firefox@developer-edition'
+# cask 'firefox@nightly' #, greedy: true
 cask 'flycut'
 cask 'font-meslo-lg-nerd-font'
 # cask 'git-credential-manager'  # https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
+cask 'google-chrome'
 # cask 'intellij-idea-ce'
 cask 'iterm2@nightly'
 cask 'itsycal'
-# cask 'kdiff3'
-cask 'keepassxc@beta'
 cask 'keepingyouawake'
-cask 'keybase'
+# cask 'keybase'
 # cask 'keycastr'
-cask 'libreoffice'
+# cask 'libreoffice'
 # cask 'licecap'
 # cask 'lulu'
-cask 'monolingual'
+# cask 'monolingual'
 # cask 'netspot'
 # cask 'ngrok'
-cask 'notunes'
-# cask 'onyx'  # Commented out since I'm on the beta version of macos
-cask 'protonvpn'
+# cask 'notunes'
+# cask 'onyx'  # unless is_arm
+# cask 'protonvpn'
 cask 'rancher'
 cask 'rectangle'
-cask 'silicon' if is_arm
+# cask 'silicon' if is_arm
 cask 'stats'
 # cask 'tempbox'
 cask 'the-unarchiver'
-cask 'thunderbird@daily'  # TODO: Commented out since I haven't opened TBird for the past 6 months - maybe its time to let go
-cask 'vscodium@insiders'   # TODO: Doesn't handle 'Remote Containers' and GH-based auto-syncing when comparing to VSCode
+# cask 'thunderbird'
+# cask 'thunderbird@beta'
+# cask 'thunderbird@daily'  # TODO: Commented out since I haven't opened TBird for the past 6 months - maybe its time to let go
+# cask 'turbo-boost-switcher' unless is_arm
+# cask 'vscodium'   # TODO: Doesn't handle 'Remote Containers' and GH-based auto-syncing when comparing to VSCode
+cask 'visual-studio-code'
+# cask 'vlc'
+# cask 'whatsapp'
 cask 'zoom'
 
 # VSCode extensions

@@ -4,12 +4,12 @@ This repo was created from the gists that I was using to help others adopt my ma
 
 # Generic/Common Getting started
 
-The meta script to setup the macos machine from a vanilla OS can be run using the following command: `curl -fsSL https://raw.githubusercontent.com/vraravam/dotfiles/master/scripts/fresh-install-of-osx.sh | zsh`
+The meta script to setup the macos machine from a vanilla OS can be run using the following command: `curl -fsSL https://raw.githubusercontent.com/jeeva-sudhan/dotfiles/master/scripts/fresh-install-of-osx.sh | zsh`
 This can be run in an idempotent manner, and will setup oh-my-zsh, homebrew, the dotfiles, etc
 
 # Advanced setup
 
-The meta script to setup the macos machine AFTER the generic script has been run, can be invoked by using the following command: `curl -fsSL https://raw.githubusercontent.com/vraravam/dotfiles/master/scripts/fresh-install-of-osx-custom.sh | zsh`
+The meta script to setup the macos machine AFTER the generic script has been run, can be invoked by using the following command: `curl -fsSL https://raw.githubusercontent.com/jeeva-sudhan/dotfiles/master/scripts/fresh-install-of-osx-custom.sh | zsh`
 This can also be run in an idempotent manner, and will setup the home folder repo, the browser profiles, resurrect the repositories that you have created a registry for, install all the languages (each specific version) using mise, apply some OSX defaults (as found in `scripts/osx-defaults.sh`, )
 
 # Finally...

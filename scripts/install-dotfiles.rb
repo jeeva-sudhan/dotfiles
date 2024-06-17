@@ -9,6 +9,8 @@
 # Special handling (rename + copy instead of symlink) for '.gitattributes' and '.gitignore'
 # To run it, just invoke by `install-dotfiles.rb` if this folder is already setup in the PATH
 
+# To run it, just invoke by `install-dotfiles.rb` if this folder is already setup in the PATH
+
 # It assumes the following:
 #   1. Ruby language is present in the system prior to this script being run.
 

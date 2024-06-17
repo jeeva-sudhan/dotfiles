@@ -5,7 +5,7 @@
 # file location: <anywhere> (just need to invoke it from that location)
 
 # You can run this script using this command:
-# curl -fsSL https://raw.githubusercontent.com/vraravam/dotfiles/master/scripts/fresh-install-of-osx.sh | zsh
+# curl -fsSL https://raw.githubusercontent.com/jeeva-sudhan/dotfiles/master/scripts/fresh-install-of-osx.sh | zsh
 
 # BEFORE STARTING TO RUN THIS SCRIPT (for the first time on a new machine)
 # 1. Login into Apple App store
