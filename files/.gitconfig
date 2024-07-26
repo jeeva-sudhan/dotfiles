@@ -212,6 +212,9 @@
   symlinks = false
   untrackedCache = true
   whitespace = fix
+[credential]
+  helper = !aws --profile neev-trainee codecommit credential-helper $@
+  UseHttpPath = true
 [diff]
   compactionHeuristic = true
   renames = true
