@@ -150,3 +150,6 @@ typeset -gU cdpath CPPFLAGS cppflags FPATH fpath infopath LDFLAGS ldflags MANPAT
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="${HOME}/.rd/bin:${PATH+:${PATH}}"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+#for postgresql-local
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
